@@ -5,5 +5,9 @@
     "moduleResolution": "Node",
     "allowSyntheticDefaultImports": true
   },
+  "typeRoots": [
+    "node_modules/@types",
+    "custom_typings/"
+  ],
   "include": ["vite.config.ts"]
 }
