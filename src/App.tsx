@@ -2,10 +2,10 @@ import { PomodoroTimer } from './components/PomodoroTimer'
 
 export default function App() {
   return (
-    <div className='flex flex-col gap-2 items-center justify-center max-w-sm min-h-screen m-auto px-5'>
+    <div className='flex flex-col gap-2 items-center justify-center w-full max-w-sm m-auto py-10 px-5'>
       <PomodoroTimer
-        pomodoroTime={10}
-        shortRestTime={2}
+        pomodoroTime={1800}
+        shortRestTime={300}
         longRestTime={5}
         cycles={4}
       />

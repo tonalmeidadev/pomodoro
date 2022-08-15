@@ -1,4 +1,4 @@
-import { secondsToTime } from "../utils/secondsToTime"
+import { secondsToMinutes } from "../utils/secondsToMinutes"
 
 interface TimerProps {
   mainTime: number
@@ -6,8 +6,8 @@ interface TimerProps {
 
 export function Timer(props: TimerProps) {
   return (
-    <div className="mb-8 text-7xl text-center">
-      {secondsToTime(props.mainTime)}
+    <div className='my-8 text-8xl tracking-tighter text-center'>
+      {secondsToMinutes(props.mainTime)}
     </div>
   )
 }
